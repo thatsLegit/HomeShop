@@ -3,12 +3,12 @@
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
          version="3.1">
     <servlet>
-        <servlet-name>HelloWorld</servlet-name>
-        <servlet-class>homeshop.HelloWorldServlet</servlet-class>
+        <servlet-name>Bill</servlet-name>
+        <servlet-class>homeshop.web.BillServlet</servlet-class>
     </servlet>
 
     <servlet-mapping>
-        <servlet-name>HelloWorld</servlet-name>
-        <url-pattern>/test</url-pattern>
+        <servlet-name>Bill</servlet-name>
+        <url-pattern>/bill</url-pattern>
     </servlet-mapping>
 </web-app>
