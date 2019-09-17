@@ -1,7 +1,7 @@
 /Users/stepanov/IdeaProjects/HomeShop/src/main/java/homeshop/Television.java
+/Users/stepanov/IdeaProjects/HomeShop/src/main/java/homeshop/web/BillServlet.java
 /Users/stepanov/IdeaProjects/HomeShop/src/main/java/homeshop/Writer.java
 /Users/stepanov/IdeaProjects/HomeShop/src/main/java/homeshop/Bill.java
-/Users/stepanov/IdeaProjects/HomeShop/src/main/java/homeshop/HelloWorldServlet.java
 /Users/stepanov/IdeaProjects/HomeShop/src/main/java/homeshop/NoProductInBillException.java
 /Users/stepanov/IdeaProjects/HomeShop/src/main/java/homeshop/Delivery.java
 /Users/stepanov/IdeaProjects/HomeShop/src/main/java/homeshop/RelayDelivery.java
@@ -12,4 +12,5 @@
 /Users/stepanov/IdeaProjects/HomeShop/src/main/java/homeshop/TakeAwayDelivery.java
 /Users/stepanov/IdeaProjects/HomeShop/src/main/java/homeshop/Customer.java
 /Users/stepanov/IdeaProjects/HomeShop/src/main/java/homeshop/FileWriter.java
+/Users/stepanov/IdeaProjects/HomeShop/src/main/java/homeshop/web/HelloWorldServlet.java
 /Users/stepanov/IdeaProjects/HomeShop/src/main/java/homeshop/Main.java
