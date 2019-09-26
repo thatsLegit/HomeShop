@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 public class BillServlet extends HttpServlet {
 
@@ -59,5 +60,10 @@ public class BillServlet extends HttpServlet {
                 "<input type=\"submit\"/>" +
                 "</form>";
         resp.getWriter().println(form);
+    }
+
+    public Map<String, String> splitParameters(String s) {
+        return null;
+        /**transforme la query en map avec cle et valeur */
     }
 }
