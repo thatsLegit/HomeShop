@@ -16,4 +16,13 @@ public class Customer {
     public String getAddress() {
         return address;
     }
+
+    public void setFullname(String fullname) {
+        this.fullname = fullname;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 }
+

@@ -37,7 +37,11 @@ public class BillServlet extends HttpServlet {
 
     private void displayBill(HttpServletRequest req, final HttpServletResponse resp) {
         Map<String, String> params = splitParameters(req.getQueryString());
-        Customer customer = new Customer(params.get("fullname"), params.get("address"));
+        String replaceFullName = params.get("fullname").replace("+", " ");
+        String replaceFullName2 = replaceFullName.replace("%2C", ", ");
+        String replaceAddress = params.get("address").replace("+", " ");
+        String replaceAddress2 = replaceAddress.replace("%2C", ", ");
+        Customer customer = new Customer(replaceFullName2, replaceAddress2);
         Delivery delivery = null;
         switch (params.get("deliveryMode")) {
             case "direct" :
